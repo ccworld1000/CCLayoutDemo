@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EPr-3O-CFE" userLabel="Outer Stack View">
-                                <rect key="frame" x="20" y="28" width="374" height="558.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EPr-3O-CFE" userLabel="Outer Stack View">
+                                <rect key="frame" x="20" y="60" width="374" height="558.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="801" verticalHuggingPriority="801" horizontalCompressionResistancePriority="801" verticalCompressionResistancePriority="801" text="Loading Recipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxV-hg-d72">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
@@ -259,8 +259,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-3l-8oR">
-                                <rect key="frame" x="20" y="0.0" width="560" height="580"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcH-3l-8oR">
+                                <rect key="frame" x="20" y="56" width="374" height="732"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -284,7 +284,7 @@
                     <navigationItem key="navigationItem" title="Information" id="hmq-QN-4FU">
                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="Fs9-5O-a2i">
                             <connections>
-                                <segue destination="yjs-m3-vua" kind="unwind" unwindAction="dismissInformationViewController:" id="TeH-p8-dv6"/>
+                                <segue destination="yjs-m3-vua" kind="unwind" unwindAction="dismissInformationViewControllerWithSender:" id="SEK-WU-z4l"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

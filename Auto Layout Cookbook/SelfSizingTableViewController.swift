@@ -52,7 +52,7 @@ class SelfSizingTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as? SelfSizingTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: SelfSizingTableViewCell.reuseIdentifier, for: indexPath) as? SelfSizingTableViewCell else {
             fatalError("Unable to dequeue a SelfSizingTableViewCell.")
         }
 
